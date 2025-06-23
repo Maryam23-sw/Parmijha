@@ -20,14 +20,14 @@ const Index = () => {
     {
       title: "مسار تطوير الألعاب",
       age: "", 
-      description: "تعليم تصميم الألعاب باستخدام أدوات مثل Construct 3 وUnity، مع أساسيات التصميم التفاعلي والمنطقي",
+      description: "تعليم تصميم الألعاب باستخدام أدوات مثل Scratch , Construct 3 وUnity، مع أساسيات التصميم التفاعلي والمنطقي",
       icon: "🎮",
       color: "from-green-400 to-green-600"
     },
     {
       title: "مسار الروبوتيكس",
       age: "",
-      description: "أطفالنا يصنعون روبوتاتهم بأنفسهم! باستخدام أدوات مثل Arduino وLEGO Mindstorms",
+      description: "أطفالنا يصنعون روبوتاتهم بأنفسهم! باستخدام  Arduino and sensors",
       icon: "🤖",
       color: "from-blue-400 to-blue-600"
     }
@@ -81,10 +81,16 @@ Welcome to Parmijha Technology            </h1>
                 <Calendar className="mr-2 h-5 w-5" />
                 احجز استشارة مجانية
               </Button> */}
+              <a
+      href="https://wa.me/201096288991"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
               <Button size="lg" variant="outline" className="border-2 border-orange-400 text-orange-600 hover:bg-orange-50 font-bold px-8 py-6 text-lg">
                 <Phone className="mr-2 h-5 w-5" />
                 تواصل معنا
               </Button>
+              </a>
             </div>
           </div>
         </div>
@@ -192,9 +198,9 @@ Welcome to Parmijha Technology            </h1>
                 </div>
                 <div className="flex items-center justify-center gap-2">
                   <Clock className="h-5 w-5 text-orange-600" />
-                  <span>3 شهور لكل مسار</span>
+                  <span>2-3 شهور لكل مسار</span>
                 </div>
-                <p className="text-sm text-slate-500">(قابلة للتمديد)</p>
+                <p className="text-sm text-slate-500"></p>
               </div>
             </Card>
 
@@ -275,7 +281,7 @@ Welcome to Parmijha Technology            </h1>
             <h3 className="text-2xl font-bold mb-4">عرض خاص للتسجيل المبكر!🎉 </h3>
             <p className="text-lg mb-6">خصم 20% على الدورة الأولى لأول 50 طفل يسجلون</p>
             <a
-  href="https://forms.gle/YOUR_FORM_ID"
+  href="https://forms.gle/Ugo9hKBf9Xfb9eqV6"
   target="_blank"
   rel="noopener noreferrer"
 >
